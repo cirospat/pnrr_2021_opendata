@@ -8,7 +8,7 @@ Viasualizzazione dati del PNRR: [**https://cirospat.github.io/pnrr_2021_opendata
 
 ---
 
-Gli strumenti principali usati per realizzare questa visualizzazione sono quattro:
+Gli strumenti principali usati per realizzare  [questa visualizzazione](https://cirospat.github.io/pnrr_2021_opendata/) sono quattro:
 
 - Simile Exhibit, per realizzare l'interfaccia di navigazione del catalogo;
 - Twitter Boostrap, per dare un po' di stile alle pagine pubblicate;
