@@ -1,180 +1,232 @@
 <!DOCTYPE html>
 <html lang="it">
-	<head>
-		<meta charset="utf-8">
-		<title>Petrusino, ... perché certi siti, apps, mappe, servizi sono un po' come il prezzemolo e non è facile distinguerli ...</title>
-		<meta
-		name="viewport" content="width=device-width, initial-scale=1.0">
-			<meta name="description" content="Petrusino &egrave; un catalogo multitematico di siti web, applicazioni per dispositivi mobili, mappe online, servizi web e infografiche.">
-			<meta name="author" content="OpenDataSicilia">
-			<meta property="og:image" content="http://petrusino.opendatasicilia.it/img/share.jpg" />
-			<meta property="og:title" content="Petrusino, ... perché certi siti, apps, mappe, servizi sono un po' come il prezzemolo e non è facili distinguerli ..."
-			/>
-			<meta property="og:url" content="http://petrusino.opendatasicilia.it" />
-			<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
-			<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
-			<!--script src="js/less-1.3.3.min.js"></script-->
-			<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
-			<link href="css/bootstrap.min.css" rel="stylesheet">
-			<link href="css/style.css" rel="stylesheet">
-			<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-			<!--[if lt IE 9]>
-				<script src="js/html5shiv.js"></script>
-			<![endif]-->
-			<!-- Fav and touch icons -->
-			<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
-			<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
-			<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
-			<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
-			<link rel="shortcut icon" href="img/favicon.png">
-			<script type="text/javascript" src="js/jquery.min.js"></script>
-			<script type="text/javascript" src="js/bootstrap.min.js"></script>
-			<script type="text/javascript" src="js/scripts.js"></script>
-			<link rel="exhibit/data" type="application/jsonp" href="https://spreadsheets.google.com/feeds/list/1MM7XAFIGj-AmE-lTPV-EyEXQOAIPy5gQoRuv9FiQigA/od6/public/basic?alt=json-in-script"
-			data-ex-converter="googleSpreadsheets" />
-			<script src="./js/dist/exhibit-api.js?locale=it"></script>
-			<script type="text/javascript" src="./js/ga.js"></script>
-			<script type="text/javascript">
-				var tableStyler = function(table, database) {
-				    	$(table).addClass("table table-condensed table-striped");
-				    };
-			</script>
-			<script>
-				$(document).bind("dataload.exhibit", function() {
-				        $("a.myfunction").click(function(event) {
-				            event.preventDefault();
-				            console.log("ciao");
-				        });
-				    });
-			</script>
-	</head>
-	<body>
-		<div class="container">
-			<div class="row clearfix">
-				<div class="col-md-12 column">
-					<nav class="navbar navbar-default" role="navigation">
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-							<a class="navbar-brand logo" href="./index.html">
-							<img style="max-width:100px; margin-top: 7px;"	src="./img/pitrusino.png">
-						</a>
-						</div>
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav">
-								<li class="active">
-									<a href="./index.html">Home</a>
-								</li>
-								<li>
-									<a href="./cosa.html">Cosa &egrave;</a>
-								</li>
-								<li>
-									<a href="./proponi.html">Proponi</a>
-								</li>
-								<li>
-									<a href="./open.html">Open</a>
-								</li>
-							</ul>
-							<ul class="nav navbar-nav navbar-right">
-								<li>
-									<a href="http://opendatasicilia.it/">OpenDataSicilia</a>
-								</li>
-							</ul>
-						</div>
-					</nav>
-				</div>
-			</div>
-			<div class="row clearfix">
-				<div class="col-md-2 column"></div>
-				<div class="col-md-8 column">
-					<p class="text-center">... perch&eacute; certi
-						<span class="btn btn-primary btn-xs">siti</span>,
-						<span class="btn btn-danger btn-xs">apps</span>,
-						<span class="btn btn-info btn-xs">mappe</span>,
-						<span class="btn btn-warning btn-xs">servizi</span>sono un po' come il
-						<span class="btn btn-success btn-xs">
-							<strong>prezzemolo</strong>
-						</span>e non &egrave; facile distinguerli ...</p>
-				</div>
-				<div class="col-md-2 column">
-					<ul class="share-buttons">
-						<li>
-							<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fpetrusino.opendatasicilia.it&t=" title="Share on Facebook"
-							target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="img/Facebook.png"></a>
-						</li>
-						<li>
-							<a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fpetrusino.opendatasicilia.it&text=:%20http%3A%2F%2Fpetrusino.opendatasicilia.it&via=opendatasicilia"
-							target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="img/Twitter.png"></a>
-						</li>
-						<li>
-							<a href="https://plus.google.com/share?url=http%3A%2F%2Fpetrusino.opendatasicilia.it" target="_blank" title="Share on Google+"
-							onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;"><img src="img/Google+.png"></a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="row clearfix">
-				<div class="col-md-1 column"></div>
-				<div class="col-md-10 column">
-					<strong>Cerca</strong>
-					<div data-ex-role="facet" data-ex-facet-Class="TextSearch"></div>
-				</div>
-				<div class="col-md-1 column"></div>
-			</div>
-			<div class="row clearfix">
-				<div class="col-md-7 column">
-					<div data-ex-role="facet" data-ex-facet-Class="Cloud" data-ex-expression=".categoria" data-ex-facet-Label="Categoria" data-ex-sort-Mode="count"></div>
-				</div>
-				<div class="col-md-2 column">
-					<div data-ex-role="facet" data-ex-expression=".territorio" data-ex-facet-Label="Territorio" data-ex-sort-Mode="count"></div>
-				</div>
-				<div class="col-md-3 column">
-					<div data-ex-role="facet" data-ex-expression=".tipo" data-ex-facet-Label="Tipo" data-ex-missing-label="Non specificato"></div>
-				</div>
-			</div>
-			<div class="row clearfix">
-				<div class="col-md-12 column">
-					<div data-ex-role="viewPanel" style="padding: 0in;">
-						<div data-ex-role="exhibit-view" data-ex-view-Class="Exhibit.TabularView" data-ex-label="Table" data-ex-columns=".label,.descrizione,.territorio,.data_inserimento"
-						data-ex-column-Labels="Nome, Descrizione,Territorio, Js-Test" data-ex-column-Formats="list,list,list,list" data-ex-sort-Column="3"
-						data-ex-sort-Ascending="false" data-ex-table-Styler="tableStyler">
-							<div data-ex-role="exhibit-lens">
-								<div class="table-responsive">
-									<table class="table" data-ex-class-content=".territorio">
-										<tr>
-											<td>
-												<a data-ex-href-content=".URL" data-ex-onclick-subcontent="myfunction({{.label}}); return false;"><strong><span data-ex-content=".label" class="petrusino"></strong></span></a>
-											</td>
-											<td>
-												<span data-ex-content=".descrizione">
-											</td>
-											<td>
-												<span data-ex-content=".territorio"></span>
-											</td>
-											<td>
-												<a href="#">my text</a>
-											</td>
-										</tr>
-									</table>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<hr>
-				<footer>
-					<p class="text-center">
-						<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
-						<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Petrusino</span>di
-						<a xmlns:cc="http://creativecommons.org/ns#" href="http://opendatasicilia.it" property="cc:attributionName"
-						rel="cc:attributionURL"> Open Data Sicilia</a>è distribuito con Licenza
-						<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.</p>
-				</footer>
-			</div>
-	</body>
+<head>
+	<meta charset="utf-8">
+	<title>Catalogo interventi del PNRR 2021</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Catalogo interventi del PNRR 2021">
+	<meta name="author" content="OpenDataSicilia">
 
+	<!-- <meta property="og:image" content="http://petrusino.opendatasicilia.it/img/share.jpg" />
+	<meta property="og:title" content="Petrusino, ... perché certi siti, apps, mappe, servizi sono un po' come il prezzemolo e non è facili distinguerli ..." />
+	<meta property="og:url" content="http://petrusino.opendatasicilia.it" /> -->
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  	<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="img/ods-60.jpg">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <link rel="exhibit/data" 
+    type="application/jsonp"
+    href="https://spreadsheets.google.com/feeds/list/1jM0kzFXTEsMkuhCl6NW8WsHMlSRvf71yV4y3jPIuXxw/od6/public/basic?alt=json-in-script"
+    ex:converter="googleSpreadsheets" />
+
+
+    <script src="./js/dist/exhibit-api.js?locale=it"></script>
+
+    <script type="text/javascript">
+    var tableStyler = function(table, database) {
+    	$(table).addClass("table table-condensed table-striped");
+    };
+    </script>
+
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5b4bb71576b937aa"></script>
+	
+    <link href="https://zapier.com/engine/rss/43663/p2" rel="alternate" type="application/rss+xml" title="PETRUSINO: il feed per rimanere aggiornati sulle nuove risorese inserite" />
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> 
+						<a class="navbar-brand logo" href="./index.html">
+							 <img style="max-width:30px; margin-top: 5px;"	src="./img/ods-70.jpg">
+						</a>
+					</div>
+
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active">
+								<a href="./index.html"><span class="btn btn-danger btn-xs"><b>PNRR 2021 opendata</b></span></a>
+							</li>
+							<li>
+								<a href="https://www.governo.it/sites/governo.it/files/PNRR_0.pdf" target="_blank"><span class="btn btn-info btn-xs">Documento PNRR Governo</span></a>
+							</li>
+							<li>
+								<a href="https://www.piersoft.it/d3/" target="_blank"><span class="btn btn-primary btn-xs">Infografica PNRR Piersoft</span></a>
+							</li>
+							<!-- <li>
+							</li>
+							<li>
+            					<a href="./griglia.html">Griglia</a>
+          					</li>
+							<li>
+								<a href="./open.html">Open</a>
+							</li> -->
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="https://github.com/cirospat/pnrr_2021_opendata" target="_blank"><span class="btn btn-success btn-xs"><strong>codice GitHub</strong></span></a>
+							</li>
+						</ul>
+					</div>
+
+				</nav>
+			</div>
+		</div>
+
+		<!-- </div><div class="row clearfix">
+			<div class="col-md-2 column">  -->
+
+					
+			<div class="col-md-12 column">
+			<h3>Catalogo degli investimenti e riforme del Piano Nazionale Ripresa e Resilienza 2021 con apposite risorse finanziarie</h3></p>
+			Consulta le informazioni sulle risorse del PNRR. La fonte delle informazioni è il documento in formato <code>PDF</code> del Governo italiano pubblicato online ad aprile 2021.
+			<br>
+			Visualizzazione delle informazioni su questa piattaforma a cura di <a href="https://cirospat.readthedocs.io/" target="_blank"><b>Ciro Spataro</b></a>.
+			<br>
+			Grazie al <a href="https://github.com/sapomnia/Piano-nazionale-di-ripartenza-e-resilienza" target="_blank"><b> repository GitHub di Riccardo Saporiti</b></a> 
+		        in cui ha creato il file in formato <code>CSV</code> degli interventi finanziati dal Piano Nazionale Ripresa Resilienza 2021 dello Stato italiano.
+			<br>
+			<span class="btn btn-danger btn-xs"><strong>Nota →</strong></span> nell'aprire i dati del documento <code>PDF</code> del Governo si è tenuto in considerazione gli "investimenti" e le "riforme" che prevedono 
+			uno stanziamento economico. Le riforme per le quali non è prevista una spesa nel PNRR non compaiono in questo catalogo.
+			</p>
+			</div>
+	
+			<!-- <div class="col-md-2 column">
+				<ul class="share-buttons">
+					<li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcirospat.github.io%2Fprocedimenti-amministrativi-comunepalermo%2F&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="img/Facebook.png"></a></li>
+					<li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fcirospat.github.io%2Fprocedimenti-amministrativi-comunepalermo%2F&t=" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="img/Twitter.png"></a></li>
+			
+				</ul>
+			</div>
+		</div>	--> 	
+	
+		<div class="row clearfix">
+			<div class="col-md-1 column">
+
+			</div>
+			<div class="col-md-9 column">
+				<button type="button" class="btn btn-danger"><b>Cerca le parole chiave sul PNRR</b></button> <b>↓</b> 
+				<img src="https://img.shields.io/badge/digita-e_ti_fornisco_risposte_immediate-red.svg" /></a><div ex:role="facet" ex:facetClass="TextSearch"></div>
+			</div> 
+			
+			<div class="col-md-1 column">
+
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-md-8 column">
+				<div ex:role="facet" 
+				ex:facetClass="Cloud"
+				ex:expression=".componenti" 
+				ex:facetLabel="componenti"
+				ex:sortMode="count"></div>
+			</div>
+			<div class="col-md-4 column">
+				<div ex:role="facet" 
+				ex:expression=".ambiti_intervento" 
+				ex:facetLabel="ambiti di intervento"
+				ex:missingLabel="Non specificato"
+				ex:sortMode="count"></div>
+			
+			</div>
+			<div class="col-md-2 column">
+				<div ex:role="facet" 
+				ex:expression=".spesa" 
+				ex:facetLabel="spesa in miliardi di €"
+				ex:missingLabel="altro"
+				ex:sortMode="count">
+				</div>
+			</div>
+		</div>
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+
+				<div ex:role="viewPanel" style="padding: 0in;">
+
+
+					<div ex:role="exhibit-view" 
+					ex:viewClass="Exhibit.TabularView"  
+					ex:label="Table"  
+					ex:columns=".investimento_riforme,.spesa,.ambiti_intervento,.componenti,.missioni"  
+					ex:columnLabels="investimenti e riforme, spesa, ambiti di intervento, componenti, missioni" 
+					ex:columnFormats="list,list,list,list,list"
+					ex:sortColumn="5"
+					ex:sortAscending="true"
+					ex:tableStyler="tableStyler"> 
+					<div ex:role="exhibit-lens">
+						<div class="table-responsive">
+							<table class="table">
+								<tr>
+									<!-- <td><strong><span ex:content=".area"></strong></td> -->
+									<td><a ex:href-content=".link" ex:onclick-subcontent="trackOutboundLink('{{.link}}'); return false;" target="_blank"><strong><span ex:content=".investimento_riforme" class="accussì"></strong></span></a></td> 
+									<!--<td><span ex:content=".investimento_riforme"></td> -->
+									<td><span class="btn btn-danger btn-xs" ex:content=".spesa"></span></td>
+									<td><span ex:content=".ambiti_intervento"></span></td>
+									<td><span ex:content=".componenti"></span></td>
+									<td><span ex:content=".missioni"></span></td>
+									<!-- <td><span ex:content=".link_scheda"></span></td> -->
+								</tr>
+							</table>
+						</div>
+
+					</div>
+				</div> 
+
+
+
+
+			</div>
+
+		</div>
+		
+			
+		<hr>
+		<button type="button" class="btn btn-info"><b>Infografica a cura dell'Associazione La Voce www.lavoce.info</b></button>
+		<iframe src='https://flo.uri.sh/story/723005/embed' title='Interactive or visual content by La Voce.Info' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/story/723005/?utm_source=embed&utm_campaign=story/723005' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>	
+			
+		<hr>
+		<footer>
+			<p>
+				<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a> <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Questo portale creato </span> da <a href="mailto:cirospat@gmail.com" target="_blank"><b>Ciro Spataro</b></a> è distribuito con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.
+			</p>
+			
+			<h4>Strumenti</h4>
+  			<p>Gli strumenti principali usati per realizzare questa visualizzazione sono quattro:</p>
+  			<ul>
+  			<li><a href="http://www.simile-widgets.org/exhibit3/" target="_blank"><strong>Simile Exhibit</strong></a>, per realizzare l'<strong>interfaccia di navigazione</strong> del catalogo;</li>
+  			<li><a href="http://getbootstrap.com" target="_blank"><strong>Twitter Boostrap</strong></a>, per dare un po' di <strong>stile</strong> alle pagine pubblicate;</li>
+   			<li><a href="https://www.google.com/sheets/about/" target="_blank"><strong>GDrive Sheet</strong></a>, per <strong>raccogliere</strong> e <strong>distribuire</strong> i <strong>dati</strong> che fanno da sorgente;</li>
+   			<li><a href="https://pages.github.com" target="_blank"><strong>GitHub Pages</strong></a>, per l'<strong>hosting</strong> dei file che costituiscono questa visualizzazione.</li>
+ 			</ul>
+			
+		</footer>
+
+	</div>
+</body>
 </html>
