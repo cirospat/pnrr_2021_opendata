@@ -6,6 +6,8 @@ Dati del PNRR in formato `CSV` di **Riccarco Saporiti**: [repository Github](htt
 
 Viasualizzazione dati del PNRR: [**https://cirospat.github.io/pnrr_2021_opendata**](https://cirospat.github.io/pnrr_2021_opendata/)
 
+Post di presentazione su questo progetto di visualizzazione: [**Medium**](https://sites.google.com/d/1k6_mG0YzRn8TOt1lelfzrbXsp1Iqa5ho/p/1bI2b55T6_ZoHcnVC4qWkBkcZOM7bPG4y/edit)
+
 ---
 
 Gli strumenti principali usati per realizzare  [questa visualizzazione](https://cirospat.github.io/pnrr_2021_opendata/) sono quattro:
