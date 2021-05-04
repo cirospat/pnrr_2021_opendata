@@ -10,7 +10,7 @@ Post di presentazione su questo progetto di visualizzazione: [**Medium**](https:
 
 ---
 
-## Strumenti
+### Strumenti
 
 Gli strumenti principali usati per realizzare  [questa visualizzazione](https://cirospat.github.io/pnrr_2021_opendata/) sono quattro:
 
@@ -21,4 +21,6 @@ Gli strumenti principali usati per realizzare  [questa visualizzazione](https://
 
 ---
 
-Licenza **Creative Commons CC BY**
+### Licenza
+
+**Creative Commons CC BY**
