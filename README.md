@@ -16,3 +16,7 @@ Gli strumenti principali usati per realizzare  [questa visualizzazione](https://
 - Twitter Boostrap, per dare un po' di stile alle pagine pubblicate;
 - GDrive Sheet, per raccogliere e distribuire i dati che fanno da sorgente;
 - GitHub Pages, per l'hosting dei file che costituiscono questa visualizzazione.
+
+---
+
+Licenza **Creative Commons CC BY**
