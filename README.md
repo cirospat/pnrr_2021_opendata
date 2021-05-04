@@ -10,6 +10,8 @@ Post di presentazione su questo progetto di visualizzazione: [**Medium**](https:
 
 ---
 
+## Strumenti
+
 Gli strumenti principali usati per realizzare  [questa visualizzazione](https://cirospat.github.io/pnrr_2021_opendata/) sono quattro:
 
 - Simile Exhibit, per realizzare l'interfaccia di navigazione del catalogo;
