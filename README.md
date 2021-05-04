@@ -4,7 +4,7 @@ Fonte informazioni sul PNRR: file in formato `PDF` del [**Governo**](https://www
 
 Dati del PNRR in formato `CSV` di **Riccarco Saporiti**: [**repository Github**](https://github.com/sapomnia/Piano-nazionale-di-ripartenza-e-resilienza)
 
-Viasualizzazione dati del PNRR: [**https://cirospat.github.io/pnrr_2021_opendata**](https://cirospat.github.io/pnrr_2021_opendata/)
+Viasualizzazione dati del PNRR: [**cirospat.github.io/pnrr_2021_opendata**](https://cirospat.github.io/pnrr_2021_opendata/)
 
 Post di presentazione su questo progetto di visualizzazione: [**Medium**](https://cirospat.medium.com/il-pnrr-facilmente-consultabile-72c508272743)
 
