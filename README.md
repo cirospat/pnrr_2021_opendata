@@ -23,4 +23,4 @@ Gli strumenti principali usati per realizzare  [questa visualizzazione](https://
 
 ### Licenza
 
-**Creative Commons CC BY**
+Creative Commons CC BY
